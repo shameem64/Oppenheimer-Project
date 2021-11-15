@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [RegressionTestCases]" guice-stage="DEVELOPMENT">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
-    <groups>
-      <run>
-        <include name="Regression"/>
-      </run>
-    </groups>
     <classes>
       <class name="TestCase.UserStory1.tc0001">
         <methods>
@@ -15,4 +10,4 @@
       </class> <!-- TestCase.UserStory1.tc0001 -->
     </classes>
   </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [RegressionTestCases] -->
+</suite> <!-- Failed suite [Suite] -->

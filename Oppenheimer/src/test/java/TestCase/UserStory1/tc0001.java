@@ -3,10 +3,9 @@ package TestCase.UserStory1;
 import org.testng.annotations.Test;
 import APIFunctions.InsertSingleWorkingHeroRecord;
 
-
 public class tc0001 {
 	
-	@Test
+	@Test (groups = { "APITestCase", "Regression" })	
 	public static void PostSingleRecord() {
 		
 		String Reponse = InsertSingleWorkingHeroRecord.PostSingleRecord(		
@@ -17,8 +16,9 @@ public class tc0001 {
 				+ "  \"natid\": \"ABCD\",\r\n"
 				+ "  \"salary\": \"7000\",\r\n"
 				+ "  \"tax\": \"70\"\r\n"
-				+ "}",201); 
-		InsertSingleWorkingHeroRecord.VerifyResponse(Reponse, "Inserted");
+				+ "}",202); 
+		
+		InsertSingleWorkingHeroRecord.VerifyResponse("tc0001",Reponse, "Inserted");
 	}
 
 }
