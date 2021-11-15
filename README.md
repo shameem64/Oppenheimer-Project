@@ -12,7 +12,7 @@ To Run the automation:
 Download and open the project in Eclipse
 To Run single test case navigate to \src\test\java\TestCase\UserStory1\tc0001.java and right click run as -> TestNG test
 
-To Run as suite right click testng.xml and select TestNG Suite
+To Run as suite right click testng.xml and select -> Run As -> TestNG Suite
 
 Further Improvements which needs to be done for Automation 
 1. UI Automation with selenium
