@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="User Story 3(failed)">
+    <parameter name="environment" value="qa"/>
+    <classes>
+      <class name="testCases.UserStory5">
+        <methods>
+          <include name="TC0001"/>
+          <include name="TC0002"/>
+          <include name="TestSetting"/>
+        </methods>
+      </class> <!-- testCases.UserStory5 -->
+    </classes>
+  </test> <!-- User Story 3(failed) -->
+</suite> <!-- Failed suite [Regression] -->
